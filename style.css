@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.about{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+@media (max-width : 600px) {
+    .about{
+        flex-direction: column;
+    }
+    
+}
+
+.about img {
+    max-width: 100%;
+    height: auto;
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+
